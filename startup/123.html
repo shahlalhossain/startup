@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Startups - Search and connect with the hottest Startup Companies in Asia</title>
+
+    <link rel="shortcut icon" href="https://e27.co/favicon.png"/>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://e27.co/html/theme/assets/global/plugins/simple-line-icons/simple-line-icons.css" rel="stylesheet" type="text/css">
+    <link href="https://e27.co/html/theme/assets/global/plugins/bootstrap/css/bootstrap.min.css?v=1" rel="stylesheet" type="text/css">
+    <link href="https://e27.co/html/theme/assets/global/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css">
+
+    <link href="https://e27.co/html/theme/assets/global/plugins/bootstrap-fileinput/bootstrap-fileinput.css" rel="stylesheet" type="text/css"/>
+    <link href="https://e27.co/html/theme/assets/admin/pages/css/profile.css" rel="stylesheet" type="text/css"/>
+    <link href="https://e27.co/html/theme/assets/admin/pages/css/tasks.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="https://e27.co/html/theme/assets/global/plugins/bootstrap-datepicker/css/datepicker3.css"/>
+
+    <link href="https://e27.co/html/theme/assets/global/css/components.css" rel="stylesheet" type="text/css">
+    <link href="https://e27.co/html/theme/assets/global/css/plugins.css" rel="stylesheet" type="text/css">
+    <link href="https://e27.co/html/theme/assets/admin/layout3/css/layout.css?v=1.4" rel="stylesheet" type="text/css">
+    <link href="https://e27.co/html/theme/assets/admin/layout3/css/themes/default.css" rel="stylesheet" type="text/css" id="style_color">
+    <link href="https://e27.co/html/theme/assets/admin/layout3/css/custom.css?v=4.1" rel="stylesheet" type="text/css">
+    <link href="https://e27.co/html/theme/assets/global/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet" type="text/css"/>
+
+    <link rel="apple-touch-icon" href="https://e27.co/assets/icons/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="57x57" href="https://e27.co/assets/icons/apple-touch-icon-57x57.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="https://e27.co/assets/icons/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="76x76" href="https://e27.co/assets/icons/apple-touch-icon-76x76.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="https://e27.co/assets/icons/apple-touch-icon-114x114.png"/>
+    <link rel="apple-touch-icon" sizes="120x120" href="https://e27.co/assets/icons/apple-touch-icon-120x120.png"/>
+    <link rel="apple-touch-icon" sizes="144x144" href="https://e27.co/assets/icons/apple-touch-icon-144x144.png"/>
+    <link rel="apple-touch-icon" sizes="152x152" href="https://e27.co/assets/icons/apple-touch-icon-152x152.png"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="https://e27.co/assets/icons/apple-touch-icon-180x180.png"/>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="https://e27.co/html/theme/assets/global/plugins/select2/select2.css"/>
+    <link rel="stylesheet" type="text/css" href="https://e27.co/html/theme/assets/global/plugins/sidebar/sandbox.css?v=1"/>
+    <link rel="stylesheet" type="text/css" href="https://e27.co/html/theme/assets/global/plugins/sidebar/drawer.min.css?v=7"/>
+    <link rel="stylesheet" type="text/css" href="https://e27.co/html/theme/assets/global/css/custom-font/styles.css?v=2016-06-10_11:48:07_03"/>
+    <link rel="stylesheet" type="text/css" href="https://e27.co/html/theme/assets/global/plugins/responsive-tab/bootstrap-responsive-tabs.css"/>
+
+    <script src="https://e27.co/html/theme/assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+    <script src="https://e27.co/stats/log?_=1465530826" type="text/javascript"></script>
+    <script src="https://e27.co/stats/log/clicktracker?_=1465530826" type="text/javascript"></script>
+
+    <script src="https://e27.co/html/theme/assets/global/scripts/metronic.js" type="text/javascript"></script>
+    <script src="https://e27.co/assets/js/custom.js" type="text/javascript"></script>
+    <script type="text/javascript" src="https://e27.co/html/theme/assets/global/plugins/select2/select2.min.js"></script>
+    <script type="text/javascript" src="https://e27.co/html/theme/assets/global/plugins/select2/select2_locale_e27.js"></script>
+    <script type="text/javascript" src="https://e27.co/html/theme/assets/global/plugins/responsive-tab/bootstrap-responsive-tabs.min.js"></script>
+
+</head>
+<body class="drawer drawer--left">
+<div class="home page-container">
+    <div class="page-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="tab-content" id="landing_startup">
+                        <div id="all" class="tab-pane fade active in">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p style="padding:8px; font-size:16px;" class="bold startup_list_count">12108 companies found</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="startups-list" id="startup-list">
+                                        <div class="row startups-list-wrap">
+                                            <div class="col-md-12">
+                                                <div class="startup-list-table">
+                                                    <div class="table-col header" style="border-left: 0px; border-right: 0px;">
+                                                        <div class="comp-name data-col">Name</div>
+
+                                                        <div class="data-col">Location</div>
+                                                        <div class="data-col">Market</div>
+                                                        <div class="data-col">Website</div>
+
+                                                        <div class="data-col">Total Funding</div>
+                                                    </div>
+                                                </div>
+                                                <div class="startup-list-table">
+                                                    <div class="table-col">
+                                                        <div class="comp-name data-col col-grey">
+                                                            <div class="startup-container">
+                                                                <div class="photo">
+                                                                    <a href="https://e27.co/startup/bettercre">
+                                                                        <img src="https://e27.co/img/no_image.png" class="item-pic" alt="Bettercre">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="text">
+                                                                    <div class="name">
+                                                                        <a class="item-label bold" href="https://e27.co/startup/bettercre">Bettercre</a>
+                                                                    </div>
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="data-col location"><strong class="hide">Location:</strong> <a href="https://e27.co/location/Vietnam">Vietnam</a></div>
+                                                        <div class="data-col market"><strong class="hide">Market:</strong> <a href='javascript:;'></a></div>
+                                                        <div class="data-col website"><strong class="hide">Website:</strong>
+                                                            <a target="_blank" href="http://bettercre.com/">bettercre.com</a>
+                                                            </a></div>
+                                                        <div class="data-col raised"><strong class="hide">Raised:</strong> -</div>
+                                                    </div>
+                                                </div>
+                                                <div class="startup-list-table">
+                                                    <div class="table-col">
+                                                        <div class="comp-name data-col col-grey">
+                                                            <div class="startup-container">
+                                                                <div class="photo">
+                                                                    <a href="https://e27.co/startup/alinds-transport-rental-mobil-jogja">
+                                                                        <img src="https://e27.co/img/startups/14694/logo_thumb.png" class="item-pic" alt="Alinds Transport Rental Mobil Jogja ">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="text">
+                                                                    <div class="name">
+                                                                        <a class="item-label bold" href="https://e27.co/startup/alinds-transport-rental-mobil-jogja">Alinds Transport Rental Mobil Jogja </a>
+                                                                    </div>
+                                                                    <p>Jasa Rental Mobil Jogja yang murah dan nyaman, transportasi andalan di Jogja</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="data-col location"><strong class="hide">Location:</strong> <a href="https://e27.co/location/Indonesia">Indonesia</a></div>
+                                                        <div class="data-col market"><strong class="hide">Market:</strong> <a href='https://e27.co/market/Travel'>Travel</a></div>
+                                                        <div class="data-col website"><strong class="hide">Website:</strong>
+                                                            <a target="_blank" href="http://www.sewamobiljogja.info">sewamobiljogja...</a>
+                                                            </a></div>
+                                                        <div class="data-col raised"><strong class="hide">Raised:</strong> -</div>
+                                                    </div>
+                                                </div>
+                                                <div class="startup-list-table">
+                                                    <div class="table-col">
+                                                        <div class="comp-name data-col col-grey">
+                                                            <div class="startup-container">
+                                                                <div class="photo">
+                                                                    <a href="https://e27.co/startup/zestora">
+                                                                        <img src="https://e27.co/img/startups/14693/logo-1465529359_thumb.png" class="item-pic" alt="Zestora">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="text">
+                                                                    <div class="name">
+                                                                        <a class="item-label bold" href="https://e27.co/startup/zestora">Zestora</a>
+                                                                    </div>
+                                                                    <p>Solves pain conditions from the comfort of homes with a mobile curation and discovery platform for pain solutions.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="data-col location"><strong class="hide">Location:</strong> <a href="https://e27.co/location/Singapore">Singapore</a></div>
+                                                        <div class="data-col market"><strong class="hide">Market:</strong> <a href='https://e27.co/market/Health%2FMedical'>Health/Medical</a></div>
+                                                        <div class="data-col website"><strong class="hide">Website:</strong>
+                                                            <a target="_blank" href="http://zestora.com/">zestora.com</a>
+                                                            </a></div>
+                                                        <div class="data-col raised"><strong class="hide">Raised:</strong> -</div>
+                                                    </div>
+                                                </div>
+                                                <div class="startup-list-table">
+                                                    <div class="table-col">
+                                                        <div class="comp-name data-col col-grey">
+                                                            <div class="startup-container">
+                                                                <div class="photo">
+                                                                    <a href="https://e27.co/startup/bodyclocks">
+                                                                        <img src="https://e27.co/img/startups/14692/logo-1465529195_thumb.png" class="item-pic" alt="BodyClocks">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="text">
+                                                                    <div class="name">
+                                                                        <a class="item-label bold" href="https://e27.co/startup/bodyclocks">BodyClocks</a>
+                                                                    </div>
+                                                                    <p>BodyClocks in Australia's premier fitness marketplace. You can search, book, pay, share and enjoy group fitness classes, yoga classes & ...</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="data-col location"><strong class="hide">Location:</strong> <a href="https://e27.co/location/Australia">Australia</a></div>
+                                                        <div class="data-col market"><strong class="hide">Market:</strong> <a href='https://e27.co/market/Health%2FMedical'>Health/Medical</a></div>
+                                                        <div class="data-col website"><strong class="hide">Website:</strong>
+                                                            <a target="_blank" href="http://www.bodyclocks.com.au/">bodyclocks.com...</a>
+                                                            </a></div>
+                                                        <div class="data-col raised"><strong class="hide">Raised:</strong> -</div>
+                                                    </div>
+                                                </div>
+                                                <div class="startup-list-table">
+                                                    <div class="table-col">
+                                                        <div class="comp-name data-col col-grey">
+                                                            <div class="startup-container">
+                                                                <div class="photo">
+                                                                    <a href="https://e27.co/startup/rocketvalet">
+                                                                        <img src="https://e27.co/img/startups/14691/logo_thumb.png" class="item-pic" alt="Rocketvalet">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="text">
+                                                                    <div class="name">
+                                                                        <a class="item-label bold" href="https://e27.co/startup/rocketvalet">Rocketvalet</a>
+                                                                    </div>
+                                                                    <p>Rocket provides on-demand driver for your personal car, anytime, anywhere.
+                                                                        Providing drivers for your after party to drive back home, ...</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="data-col location"><strong class="hide">Location:</strong> <a href="https://e27.co/location/Malaysia">Malaysia</a></div>
+                                                        <div class="data-col market"><strong class="hide">Market:</strong> <a href='https://e27.co/market/Startups'>Startups</a><span>, </span><a href='https://e27.co/market/Transportation'>Transportation</a></div>
+                                                        <div class="data-col website"><strong class="hide">Website:</strong>
+                                                            <a target="_blank" href="http://www.rocketvalet.com">rocketvalet.co...</a>
+                                                            </a></div>
+                                                        <div class="data-col raised"><strong class="hide">Raised:</strong> -</div>
+                                                    </div>
+                                                </div>
+                                                <div class="startup-list-table">
+                                                    <div class="table-col">
+                                                        <div class="comp-name data-col col-grey">
+                                                            <div class="startup-container">
+                                                                <div class="photo">
+                                                                    <a href="https://e27.co/startup/vumero">
+                                                                        <img src="https://e27.co/img/startups/14690/logo-1465528408_thumb.png" class="item-pic" alt="Vumero">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="text">
+                                                                    <div class="name">
+                                                                        <a class="item-label bold" href="https://e27.co/startup/vumero">Vumero</a>
+                                                                    </div>
+                                                                    <p>Vumero is the world’s short-term marketplace for consulting and analytical tasks up to 100 days.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="data-col location"><strong class="hide">Location:</strong> <a href="https://e27.co/location/Australia">Australia</a></div>
+                                                        <div class="data-col market"><strong class="hide">Market:</strong> <a href='https://e27.co/market/Accounting'>Accounting</a><span>, </span><a href='https://e27.co/market/Finance'>Finance</a></div>
+                                                        <div class="data-col website"><strong class="hide">Website:</strong>
+                                                            <a target="_blank" href="http://vumero.com/">vumero.com</a>
+                                                            </a></div>
+                                                        <div class="data-col raised"><strong class="hide">Raised:</strong> -</div>
+                                                    </div>
+                                                </div>
+                                                <div class="startup-list-table">
+                                                    <div class="table-col">
+                                                        <div class="comp-name data-col col-grey">
+                                                            <div class="startup-container">
+                                                                <div class="photo">
+                                                                    <a href="https://e27.co/startup/minz-it-ltd">
+                                                                        <img src="https://e27.co/img/startups/14689/logo_thumb.png" class="item-pic" alt="MINZ IT Ltd">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="text">
+                                                                    <div class="name">
+                                                                        <a class="item-label bold" href="https://e27.co/startup/minz-it-ltd">MINZ IT Ltd</a>
+                                                                    </div>
+                                                                    <p>We are a group of innovators who digitize your brands, business,idea and focuses.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="data-col location"><strong class="hide">Location:</strong> <a href="https://e27.co/location/Bangladesh">Bangladesh</a></div>
+                                                        <div class="data-col market"><strong class="hide">Market:</strong> <a href='javascript:;'></a></div>
+                                                        <div class="data-col website"><strong class="hide">Website:</strong>
+                                                            <a target="_blank" href="http://www.minz-it.com">minz-it.com</a>
+                                                            </a></div>
+                                                        <div class="data-col raised"><strong class="hide">Raised:</strong> -</div>
+                                                    </div>
+                                                </div>
+                                                <div class="startup-list-table">
+                                                    <div class="table-col">
+                                                        <div class="comp-name data-col col-grey">
+                                                            <div class="startup-container">
+                                                                <div class="photo">
+                                                                    <a href="https://e27.co/startup/sourceeasy">
+                                                                        <img src="https://e27.co/img/startups/14688/logo-1465527597_thumb.png" class="item-pic" alt="Sourceeasy">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="text">
+                                                                    <div class="name">
+                                                                        <a class="item-label bold" href="https://e27.co/startup/sourceeasy">Sourceeasy</a>
+                                                                    </div>
+                                                                    <p>Sourceasy is a web platform that enables designers and brands to get their apparel manufactured and delivered to them.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="data-col location"><strong class="hide">Location:</strong> <a href="https://e27.co/location/India">India</a></div>
+                                                        <div class="data-col market"><strong class="hide">Market:</strong> <a href='https://e27.co/market/E-commerce'>E-commerce</a><span>, </span><a href='https://e27.co/market/Fashion'>Fashion</a></div>
+                                                        <div class="data-col website"><strong class="hide">Website:</strong>
+                                                            <a target="_blank" href="http://sourceeasy.com/">sourceeasy.com</a>
+                                                            </a></div>
+                                                        <div class="data-col raised"><strong class="hide">Raised:</strong> -</div>
+                                                    </div>
+                                                </div>
+                                                <div class="startup-list-table">
+                                                    <div class="table-col">
+                                                        <div class="comp-name data-col col-grey">
+                                                            <div class="startup-container">
+                                                                <div class="photo">
+                                                                    <a href="https://e27.co/startup/futr">
+                                                                        <img src="https://e27.co/img/startups/14687/logo-1465527380_thumb.png" class="item-pic" alt="Futr">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="text">
+                                                                    <div class="name">
+                                                                        <a class="item-label bold" href="https://e27.co/startup/futr">Futr</a>
+                                                                    </div>
+                                                                    <p>Send messages. Keep in touch with family and friends. Send messages immediately or queue them up with their scheduler.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="data-col location"><strong class="hide">Location:</strong> <a href="https://e27.co/location/Australia">Australia</a></div>
+                                                        <div class="data-col market"><strong class="hide">Market:</strong> <a href='https://e27.co/market/Software'>Software</a></div>
+                                                        <div class="data-col website"><strong class="hide">Website:</strong>
+                                                            <a target="_blank" href="https://www.getfutrapp.com/">getfutrapp.com</a>
+                                                            </a></div>
+                                                        <div class="data-col raised"><strong class="hide">Raised:</strong> -</div>
+                                                    </div>
+                                                </div>
+                                                <div class="startup-list-table">
+                                                    <div class="table-col">
+                                                        <div class="comp-name data-col col-grey">
+                                                            <div class="startup-container">
+                                                                <div class="photo">
+                                                                    <a href="https://e27.co/startup/gs-home-shopping">
+                                                                        <img src="https://e27.co/img/startups/14686/logo-1465526850_thumb.png" class="item-pic" alt="GS Home Shopping">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="text">
+                                                                    <div class="name">
+                                                                        <a class="item-label bold" href="https://e27.co/startup/gs-home-shopping">GS Home Shopping</a>
+                                                                    </div>
+                                                                    <p>GSHS is Korea’s foremost multimedia retailer as well as a global leader in TV home shopping.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="data-col location"><strong class="hide">Location:</strong> <a href="https://e27.co/location/South Korea">South Korea</a></div>
+                                                        <div class="data-col market"><strong class="hide">Market:</strong> <a href='https://e27.co/market/Retail'>Retail</a></div>
+                                                        <div class="data-col website"><strong class="hide">Website:</strong>
+                                                            <a target="_blank" href="http://gsshop.com/">gsshop.com</a>
+                                                            </a></div>
+                                                        <div class="data-col raised"><strong class="hide">Raised:</strong> -</div>
+                                                    </div>
+                                                </div>
+                                                <div class="startup-list-table">
+                                                    <div class="table-col">
+                                                        <div class="comp-name data-col col-grey">
+                                                            <div class="startup-container">
+                                                                <div class="photo">
+                                                                    <a href="https://e27.co/startup/24hshop-vn">
+                                                                        <img src="https://e27.co/img/startups/14685/logo-1465526670_thumb.png" class="item-pic" alt="24hshop.vn">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="text">
+                                                                    <div class="name">
+                                                                        <a class="item-label bold" href="https://e27.co/startup/24hshop-vn">24hshop.vn</a>
+                                                                    </div>
+                                                                    <p>24hshop was formed to return real value - the actual cash for the product. Delivery is free within 24 hours ...</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="data-col location"><strong class="hide">Location:</strong> <a href="https://e27.co/location/Vietnam">Vietnam</a></div>
+                                                        <div class="data-col market"><strong class="hide">Market:</strong> <a href='https://e27.co/market/E-commerce'>E-commerce</a></div>
+                                                        <div class="data-col website"><strong class="hide">Website:</strong>
+                                                            <a target="_blank" href="http://24hshop.vn/">24hshop.vn</a>
+                                                            </a></div>
+                                                        <div class="data-col raised"><strong class="hide">Raised:</strong> -</div>
+                                                    </div>
+                                                </div>
+                                                <div class="startup-list-table">
+                                                    <div class="table-col">
+                                                        <div class="comp-name data-col col-grey">
+                                                            <div class="startup-container">
+                                                                <div class="photo">
+                                                                    <a href="https://e27.co/startup/voltafield-technology">
+                                                                        <img src="https://e27.co/img/startups/14684/logo-1465526417_thumb.png" class="item-pic" alt="Voltafield Technology">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="text">
+                                                                    <div class="name">
+                                                                        <a class="item-label bold" href="https://e27.co/startup/voltafield-technology">Voltafield Technology</a>
+                                                                    </div>
+                                                                    <p>Voltafield Technology Corporation (Voltafield) is a global leader specializes in magnetic sensing solutions.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="data-col location"><strong class="hide">Location:</strong> <a href="https://e27.co/location/Taiwan">Taiwan</a></div>
+                                                        <div class="data-col market"><strong class="hide">Market:</strong> <a href='https://e27.co/market/Software'>Software</a><span>, </span><a href='https://e27.co/market/Software+Development'>Software Development</a></div>
+                                                        <div class="data-col website"><strong class="hide">Website:</strong>
+                                                            <a target="_blank" href="http://voltafield.com/">voltafield.com</a>
+                                                            </a></div>
+                                                        <div class="data-col raised"><strong class="hide">Raised:</strong> -</div>
+                                                    </div>
+                                                </div>
+                                                <div class="startup-list-table">
+                                                    <div class="table-col">
+                                                        <div class="comp-name data-col col-grey">
+                                                            <div class="startup-container">
+                                                                <div class="photo">
+                                                                    <a href="https://e27.co/startup/ourganic-farm">
+                                                                        <img src="https://e27.co/img/startups/14683/logo-1465525807_thumb.png" class="item-pic" alt="Ourganic Farm">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="text">
+                                                                    <div class="name">
+                                                                        <a class="item-label bold" href="https://e27.co/startup/ourganic-farm">Ourganic Farm</a>
+                                                                    </div>
+                                                                    <p>Ourganic Farm providing organic vegetable, rice, sugar, cacao, coffee, and other refined products.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="data-col location"><strong class="hide">Location:</strong> <a href="https://e27.co/location/Indonesia">Indonesia</a></div>
+                                                        <div class="data-col market"><strong class="hide">Market:</strong> <a href='https://e27.co/market/Agriculture'>Agriculture</a><span>, </span><a href='https://e27.co/market/Food+%26+Beverages'>Food &amp; Beverages</a></div>
+                                                        <div class="data-col website"><strong class="hide">Website:</strong>
+                                                            <a target="_blank" href="http://ourganicfarm.com/">ourganicfarm.c...</a>
+                                                            </a></div>
+                                                        <div class="data-col raised"><strong class="hide">Raised:</strong> -</div>
+                                                    </div>
+                                                </div>
+                                                <div class="startup-list-table">
+                                                    <div class="table-col">
+                                                        <div class="comp-name data-col col-grey">
+                                                            <div class="startup-container">
+                                                                <div class="photo">
+                                                                    <a href="https://e27.co/startup/sentinel-meteorology">
+                                                                        <img src="https://e27.co/img/startups/14682/logo-1465525538_thumb.png" class="item-pic" alt="Sentinel Meteorology">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="text">
+                                                                    <div class="name">
+                                                                        <a class="item-label bold" href="https://e27.co/startup/sentinel-meteorology">Sentinel Meteorology</a>
+                                                                    </div>
+                                                                    <p>Sentinel Meteorology is building a world-class environmental sensing network, focused on the needs of agricultural and industrial businesses.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="data-col location"><strong class="hide">Location:</strong> <a href="https://e27.co/location/Australia">Australia</a></div>
+                                                        <div class="data-col market"><strong class="hide">Market:</strong> <a href='https://e27.co/market/B2B%2FEnterprise'>B2B/Enterprise</a><span>, </span><a href='https://e27.co/market/Hardware'>Hardware</a></div>
+                                                        <div class="data-col website"><strong class="hide">Website:</strong>
+                                                            <a target="_blank" href="http://sentinelmeteorology.com/">sentinelmeteor...</a>
+                                                            </a></div>
+                                                        <div class="data-col raised"><strong class="hide">Raised:</strong> -</div>
+                                                    </div>
+                                                </div>
+                                                <div class="startup-list-table">
+                                                    <div class="table-col">
+                                                        <div class="comp-name data-col col-grey">
+                                                            <div class="startup-container">
+                                                                <div class="photo">
+                                                                    <a href="https://e27.co/startup/frame-ai">
+                                                                        <img src="https://e27.co/img/no_image.png" class="item-pic" alt="frame.ai">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="text">
+                                                                    <div class="name">
+                                                                        <a class="item-label bold" href="https://e27.co/startup/frame-ai">frame.ai</a>
+                                                                    </div>
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="data-col location"><strong class="hide">Location:</strong> <a href="https://e27.co/location/United States of America">United States of America</a></div>
+                                                        <div class="data-col market"><strong class="hide">Market:</strong> <a href='https://e27.co/market/B2B%2FEnterprise'>B2B/Enterprise</a><span>, </span><a href='https://e27.co/market/Banking+%26+Accounting'>Banking &amp; Accounting</a><span>, </span><a href='https://e27.co/market/E-commerce'>E-commerce</a><span>, </span><a href='https://e27.co/market/Insurance'>Insurance</a><span>, </span><a href='https://e27.co/market/Media'>Media</a><span>, </span><a href='https://e27.co/market/Real+Estate'>Real Estate</a><span>, </span><a href='https://e27.co/market/Startups'>Startups</a><span>, </span><a href='https://e27.co/market/Travel'>Travel</a></div>
+                                                        <div class="data-col website"><strong class="hide">Website:</strong>
+                                                            <a target="_blank" href="http://frame.ai">frame.ai</a>
+                                                            </a></div>
+                                                        <div class="data-col raised"><strong class="hide">Raised:</strong> -</div>
+                                                    </div>
+                                                </div>
+                                                <div class="startup-list-table">
+                                                    <div class="table-col">
+                                                        <div class="comp-name data-col col-grey">
+                                                            <div class="startup-container">
+                                                                <div class="photo">
+                                                                    <a href="https://e27.co/startup/airloyal">
+                                                                        <img src="https://e27.co/img/startups/14680/logo-1465523037_thumb.png" class="item-pic" alt="Airloyal">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="text">
+                                                                    <div class="name">
+                                                                        <a class="item-label bold" href="https://e27.co/startup/airloyal">Airloyal</a>
+                                                                    </div>
+                                                                    <p>They are a bunch of entrepreneurs and techies with a common passion – to revolutionize the mobile advertizing space by ...</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="data-col location"><strong class="hide">Location:</strong> <a href="https://e27.co/location/Singapore">Singapore</a></div>
+                                                        <div class="data-col market"><strong class="hide">Market:</strong> <a href='https://e27.co/market/Advertising'>Advertising</a></div>
+                                                        <div class="data-col website"><strong class="hide">Website:</strong>
+                                                            <a target="_blank" href="http://www.airloyal.com/">airloyal.com</a>
+                                                            </a></div>
+                                                        <div class="data-col raised"><strong class="hide">Raised:</strong> -</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br/><br/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+<!-- BEGIN CORE PLUGINS -->
+<!--[if lt IE 9]>
+<script src="https://e27.co/html/theme/assets/global/plugins/respond.min.js"></script>
+<script src="https://e27.co/html/theme/assets/global/plugins/excanvas.min.js"></script>
+<![endif]-->
+
+<script src="https://e27.co/html/theme/assets/global/plugins/jquery-migrate.min.js" type="text/javascript"></script>
+<!-- IMPORTANT! Load jquery-ui-1.10.3.custom.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
+<script src="https://e27.co/html/theme/assets/global/plugins/jquery-ui/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+<script src="https://e27.co/html/theme/assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="https://e27.co/html/theme/assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+<script src="https://e27.co/html/theme/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+<script src="https://e27.co/html/theme/assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+<script src="https://e27.co/html/theme/assets/global/plugins/jquery.cokie.min.js" type="text/javascript"></script>
+<script src="https://e27.co/html/theme/assets/global/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
+<!-- END CORE PLUGINS -->
+<!-- BEGIN PAGE LEVEL PLUGINS -->
+<script src="https://e27.co/html/theme/assets/global/plugins/bootstrap-fileinput/bootstrap-fileinput.js" type="text/javascript"></script>
+<script src="https://e27.co/html/theme/assets/global/plugins/jquery.sparkline.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="https://e27.co/html/theme/assets/global/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+<script type="text/javascript" src="https://e27.co/html/theme/assets/global/plugins/jquery.mockjax.js"></script>
+<script type="text/javascript" src="https://e27.co/html/theme/assets/global/plugins/jquery.autosize.min.js"></script>
+<!-- END PAGE LEVEL PLUGINS -->
+<!-- BEGIN PAGE LEVEL SCRIPTS -->
+<script src="https://e27.co/html/theme/assets/admin/layout3/scripts/layout.js" type="text/javascript"></script>
+<script src="https://e27.co/html/theme/assets/admin/pages/scripts/components-pickers.js"></script>
+<script type="text/javascript" src="https://e27.co/html/theme/assets/global/plugins/fancybox/source/jquery.fancybox.pack.js"></script>
+<!-- END PAGE LEVEL SCRIPTS -->
+</body>
+</html>
